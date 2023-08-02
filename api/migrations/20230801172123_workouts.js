@@ -3,7 +3,10 @@
  * @returns { Promise<void> }
  */
 exports.up = function(knex) {
-  
+    table.increments('id').primary();
+    table.integer('userId').notNullable().references('users').inTable('workouts').onDelete('CASCADE');
+    table.datetime('dateTime').notNullable();
+    table.timestamp('updated_at').defaultTo(knex.fn.now())
 };
 
 /**
@@ -11,5 +14,5 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-  
+    return knex.schema.dropTableIfExists('workouts')
 };
