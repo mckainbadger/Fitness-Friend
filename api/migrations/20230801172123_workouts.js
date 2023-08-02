@@ -4,7 +4,7 @@
  */
 exports.up = function(knex) {
     table.increments('id').primary();
-    table.integer('userId').notNullable().references('users').inTable('workouts').onDelete('CASCADE');
+    table.integer('userId').notNullable().references('id').inTable('users').onDelete('CASCADE');
     table.datetime('dateTime').notNullable();
     table.timestamp('updated_at').defaultTo(knex.fn.now())
 };
