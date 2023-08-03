@@ -6,7 +6,7 @@ import ExerciseDetail from './views/ExerciseDetails';
 import Home from './views/Home';
 import Navbar from './layouts/Navbar';
 import Footer from './layouts/Footer';
-import Stats from './views/Stats'
+import Workout from './views/Workout'
 import Login from './views/Login'
 
 function App() {  
@@ -16,7 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
-      <Route path="/stats" element={<Stats/>} />
+      <Route path="/workout" element={<Workout/>} />
       <Route path="/login" element={<Login/>} />
     </Routes>
     <Footer/>

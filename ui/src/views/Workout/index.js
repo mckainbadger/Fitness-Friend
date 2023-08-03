@@ -3,7 +3,7 @@
 import React from "react";
 import { TextField, Button, Box, Container } from "@mui/material";
 
-const Stats = () => {
+const Workout = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission here
@@ -58,4 +58,4 @@ const Stats = () => {
   );
 };
 
-export default Stats
+export default Workout
