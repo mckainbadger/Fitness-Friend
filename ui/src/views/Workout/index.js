@@ -5,7 +5,7 @@ import { TextField, Button, Box, Container } from "@mui/material";
   import {
     getCoordsByAddress,
     getCountyByCoords,
-    createNewReport,
+    createNewWorkout,
     getCountyByAddress,
     getZipByCoords,
   } from "../../utility/api";
@@ -33,7 +33,7 @@ function Workout(props) {
     const [user, setUser] = useState(null)
     const [latitude, setLatitude] = useState("")
     const [longitude, setLongitude] = useState("")
-    const [spotData, setSpotData] = useState({
+    const [workoutData, setWorkoutData] = useState({
       name: "",
       state: "",
       county: "",
@@ -60,9 +60,7 @@ function Workout(props) {
   
     //Function Logic
     const handleSubmit = async (event) => {
-      const coords = await getCoordsByAddress(addressData, cityData, stateData);
-      const county = await getCountyByCoords(coords.lat, coords.lon);
-      const zipcode = await getZipByCoords(coords.lat, coords.lon);
+      const response = await createNewWorkout(workoutData);
       
 
     };
@@ -72,7 +70,12 @@ function Workout(props) {
   return (
     <Container maxWidth="sm">
       <form onSubmit={handleSubmit}>
-        <Box sx={{ mb: 2 }}>
+        <Box sx={{ mb: 4 }}>
+        <DatePicker
+  label="Controlled picker"
+  value={value}
+  onChange={(newValue) => setValue(newValue)}
+/>
           <TextField
             label="First Name"
             fullWidth
