@@ -5,12 +5,11 @@
     exports.up = function(knex) {
         return knex.schema.createTable('exerciseOptions', function(table) {
             table.increments('id').primary();
-            table.string('bodyPart', 50).unique().notNullable();
-            table.string('equipment', 50).notNullable();
+            table.string('bodyPart', 250).notNullable();
+            table.string('equipment', 250).notNullable();
             table.string('gifUrl', 250).notNullable();
-            table.string('name', 50).notNullable();
-            table.string('target', 50).notNullable();
-            table.timestamp('updated_at').defaultTo(knex.fn.now())
+            table.string('name', 250).notNullable();
+            table.string('target', 250).notNullable();
           })
         }
 /**
