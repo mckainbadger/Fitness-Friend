@@ -7,6 +7,7 @@ import HeroBanner from '../../components/HeroBanner'
 const Home = () => {
   const [bodyPart, setBodyPart] = useState('all')
   const [exercises, setExercises] = useState([])
+  console.log(bodyPart)
   return (
   <Box>
     <HeroBanner/>
@@ -14,7 +15,7 @@ const Home = () => {
     bodyPart={bodyPart} setBodyPart={setBodyPart}/>
     <Exercises
     setExercises={setExercises} 
-    bodyPart={bodyPart} setBodyPart={setBodyPart}/>
+    bodyPart={bodyPart} exercises={exercises}/>
   </Box>
   )
 }
