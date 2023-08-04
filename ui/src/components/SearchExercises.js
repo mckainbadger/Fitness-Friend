@@ -20,7 +20,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       fetchExercisesData();
     }, []);
 
-  //Search for exercise
+  //Search for all exercise
   const handleSearch = async () => {
     if (search) {
       const exercisesData = await fetchData(
@@ -59,7 +59,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
                 border: "none",
                 borderRadius: "4px",
               },
-              width: { lg: "1170px", xs: "350px" },
+              width: { lg: "500px", xs: "350px" },
               backgroundColor: "#fff",
             }}
             id="outlined-basic"
@@ -86,7 +86,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           </Button>
         </Box>
         <Box sx={{position: "relative", width: "100%" , p: "20px"}}>
-          <HorizontalScrollBar data={bodyParts} />
+          <HorizontalScrollBar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} />
         </Box>
       </Typography>
     </Stack>

@@ -4,18 +4,18 @@ import HeroBannerImage from "../assets/icons/banner.png"
 const HeroBanner = () => {
   return(
     <Box sx= {{
-      mt: {lg: '212px', xs: "70px"},
+      mt: {lg: '150px', xs: "50px"},
       ml: {sm: '50px'}
     }} postition= "relative" p="20px">
  <Typography color='#FF2625' fontWeight="600" fontSize="26px">
   Fitness Friend
  </Typography>
  <Typography fontWeight={700}
- sx= {{fontSize: {lg: '44px', xs: '40px'}}}>
+ sx= {{fontSize: {lg: '44px', xs: '30px'}}}>
   Sweat, Smile, <br/> and Repeat
  </Typography>
  <Typography fontSize="20px"
- lineHeight={35} mb={1}>
+ lineHeight={20} mb={0}>
   Check out the most effective exerecises
  </Typography>
  <Button variant="contained" color="error"
