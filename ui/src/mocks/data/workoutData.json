@@ -1,0 +1,205 @@
+[{
+  "bodyPart":"back",
+  "equipment": "cable",
+  "gifUrl":"https://api.exercisedb.io/image/jOhL9wRePo2YCc",
+  "id":"0007",
+  "name":"alternate lateral pulldown",
+  "target":"lats"
+}, {
+  "bodyPart":"back",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/7qA5RgKa9WtTdn",
+  "id":"3293",
+  "name":"archer pull up",
+  "target":"lats"
+}, {
+  "bodyPart":"back",
+  "equipment": "leverage machine",
+  "gifUrl":"https://api.exercisedb.io/image/AWLwqf0K7B8kd6",
+  "id":"0015",
+  "name":"assisted parallel close grip pull-up",
+  "target":"lats"
+}, {
+  "bodyPart":"cardio",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/wrJWzW9rm5TRVJ",
+  "id":"3220",
+  "name":"astride jumps (male)",
+  "target":"cadiovascular system"
+}, {
+  "bodyPart":"cardio",
+  "equipment": "leverage machine",
+  "gifUrl":"https://api.exercisedb.io/image/KvM5982qPaqjOX",
+  "id":"1431",
+  "name":"assisted standing chin-up",
+  "target":"lats"
+}, {
+  "bodyPart":"cardio",
+  "equipment": "leverage machine",
+  "gifUrl":"https://api.exercisedb.io/image/BN171-aDkSPf2M",
+  "id":"1432",
+  "name":"assisted standing pull-up",
+  "target":"lats"
+},{
+  "bodyPart":"chest",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/S6B0gASoQlFtK9",
+  "id":"3294",
+  "name":"archer push up",
+  "target":"pectorals"
+},{
+  "bodyPart":"chest",
+  "equipment": "leverage machine",
+  "gifUrl":"https://api.exercisedb.io/image/v55mwMFcETY7nV",
+  "id":"0009",
+  "name":"assisted chest dip (kneeling)",
+  "target":"pectorals"
+},{
+  "bodyPart":"chest",
+  "equipment": "assisted",
+  "gifUrl":"https://api.exercisedb.io/image/Bd59A8IctvA0jI",
+  "id":"1716",
+  "name":"assisted seated pectoralis major stretch with stability ball",
+  "target":"pectorals"
+},{
+  "bodyPart":"lower arms",
+  "equipment": "band"  ,
+  "gifUrl":"https://api.exercisedb.io/image/MUynqCzKOJYxGM",
+  "id":"1016",
+  "name":"band wrist curl",
+  "target":"forearms"
+},{
+  "bodyPart":"lower arms",
+  "equipment": "barbell",
+  "gifUrl":"https://api.exercisedb.io/image/T71H6VJS7SGA78",
+  "id":"1411",
+  "name":"barbell palms down wrist curl over a bench",
+  "target":"forearms"
+},{
+  "bodyPart":"lower arms",
+  "equipment": "barbell",
+  "gifUrl":"https://api.exercisedb.io/image/7WAdhKie7Lj4mF",
+  "id":"1412" ,
+  "name":"barbell palms up wrist curl over a bench",
+  "target":"forearms"
+},{
+  "bodyPart":"lower legs",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/mYmBsraX4iR3Jp",
+  "id":"1368",
+  "name":"ankle circles",
+  "target":"calves"
+},{
+  "bodyPart":"lower legs",
+  "equipment": "assisted",
+  "gifUrl":"https://api.exercisedb.io/image/BHtDIRCOVPsSTr",
+  "id":"1708",
+  "name":"assisted lying calves stretch",
+  "target":"calves"
+},{
+  "bodyPart":"lower legs",
+  "equipment": "band",
+  "gifUrl":"https://api.exercisedb.io/image/4w6eBFNfHlQurj",
+  "id":"0999",
+  "name":"band single leg calf raise",
+  "target":"calves"
+},{
+  "bodyPart":"neck",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/snTmNNTRzP6GKA",
+  "id":"1403",
+  "name":"neck side stretch",
+  "target":"levator scapulae"
+},{
+  "bodyPart":"neck",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/aV1T33IVW0byH5",
+  "id":"0716",
+  "name":"side push neck stretch",
+  "target":"levator scapulae"
+},{
+  "bodyPart":"shoulders",
+  "equipment": "band",
+  "gifUrl":"https://api.exercisedb.io/image/NtYFuAKP7-5BKS",
+  "id":"0977",
+  "name":"band front lateral raise",
+  "target":"delts"
+},{
+  "bodyPart":"shoulders",
+  "equipment": "band",
+  "gifUrl":"https://api.exercisedb.io/image/BNWWfp5S867veq",
+  "id":"0978",
+  "name":"band front raise",
+  "target":"delts"
+},{
+  "bodyPart":"shoulders",
+  "equipment": "band",
+  "gifUrl":"https://api.exercisedb.io/image/WXES0IS3mYWyhH",
+  "id":"0993",
+  "name":"band reverse fly",
+  "target":"delts"
+},{
+  "bodyPart":"upper arms",
+  "equipment": "assisted",
+  "gifUrl":"https://api.exercisedb.io/image/zaYzIQ7qgWdA9p",
+  "id":"0018",
+  "name":"assisted standing triceps extension (with towel)",
+  "target":"triceps"
+},{
+  "bodyPart":"upper arms",
+  "equipment": "leverage machine",
+  "gifUrl":"https://api.exercisedb.io/image/4eCrXw2bEt31kI" ,
+  "id":"0019",
+  "name":"assisted triceps dip (kneeling)",
+  "target":"triceps"
+},{
+  "bodyPart":"upper arms",
+  "equipment": "band",
+  "gifUrl":"https://api.exercisedb.io/image/Cf-lxbyqqVXhfq",
+  "id":"0968",
+  "name":"band alternating biceps curl",
+  "target":"biceps"
+},{
+  "bodyPart":"upper legs",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/7EPlP5BhWM5tAt",
+  "id":"1512",
+  "name":"all fours squad stretch",
+  "target":"quads"
+},{
+  "bodyPart":"upper legs",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/YWQePGwjFfZpNe",
+  "id":"3214",
+  "name":"arms apart circular toe touch (male)",
+  "target":"glutes"
+},{
+  "bodyPart":"upper legs",
+  "equipment": "assisted",
+  "gifUrl":"https://api.exercisedb.io/image/NxUvY9-VnpwIiY",
+  "id":"1709",
+  "name":"assisted lying glutes stretch",
+  "target":"glutes"
+},{
+  "bodyPart":"waist",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/QS9cIwoGlVYzNS",
+  "id":"0001",
+  "name":"3/4 sit up",
+  "target":"abs"
+},{
+  "bodyPart":"waist",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/BQhf017Hrslkvc",
+  "id":"003",
+  "name":"air bike",
+  "target":"abs"
+},{
+  "bodyPart":"waist",
+  "equipment": "body weight",
+  "gifUrl":"https://api.exercisedb.io/image/CT0dL-tyeGC0GT",
+  "id":"0006",
+  "name":"alternate heel touchers",
+  "target":"abs"
+}
+]
