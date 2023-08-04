@@ -20,7 +20,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       fetchExercisesData();
     }, []);
 
-  //Search for exercise
+  //Search for all exercise
   const handleSearch = async () => {
     if (search) {
       const exercisesData = await fetchData(
@@ -86,7 +86,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           </Button>
         </Box>
         <Box sx={{position: "relative", width: "100%" , p: "20px"}}>
-          <HorizontalScrollBar data={bodyParts} />
+          <HorizontalScrollBar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} />
         </Box>
       </Typography>
     </Stack>
