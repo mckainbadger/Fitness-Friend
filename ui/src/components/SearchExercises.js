@@ -13,7 +13,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   useEffect(() => {
       const fetchExercisesData = async () => {
         const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
-
+        console.log(bodyPartsData)
         setBodyParts(['all', ...bodyPartsData]);
       };
 
@@ -30,11 +30,13 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       console.log("exercise data:", exercisesData)
       //filter through data for specific exercises
       const searchedExercises = exercisesData.filter(
-        (exercise) =>
+        (exercise) => {
+          console.log(exercise)
           exercise.name.toLowerCase().includes(search) ||
           exercise.target.toLowerCase().includes(search) ||
           exercise.equipment.toLowerCase().includes(search) ||
-          exercise.bodyPart.toLowerCase().includes(search)
+          exercise.bodyPart.toLowerCase().includes(search)}
+          
       );
       //Clear the search
       setSearch("");
@@ -47,11 +49,10 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       <Typography
         fontWeight={700}
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
-        mb="50px"
         textAlign="center"
       >
         Awesome Exercises You Should Know <br />
-        <Box position="relative" mb="72px">
+        {/* <Box position="relative" mb="20px">
           <TextField
             sx={{
               input: {
@@ -84,7 +85,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           >
             Search
           </Button>
-        </Box>
+        </Box> */}
         <Box sx={{position: "relative", width: "100%" , p: "20px"}}>
           <HorizontalScrollBar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} />
         </Box>

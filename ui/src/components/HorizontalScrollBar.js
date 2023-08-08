@@ -32,7 +32,7 @@ const HorizontalScrollBar = ({ data, bodyParts, setBodyPart }) => {
 
   return (
     <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
-      <Grid container justifyContent='center' alignItems='center'>
+      <Grid container justifyContent='center' alignItems='center' mt={4}>
         {data.map((item) => (
           <Box
             key={item.id || item}

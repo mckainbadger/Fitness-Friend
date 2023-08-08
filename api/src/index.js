@@ -1,9 +1,10 @@
 require('dotenv').config()
+const express = require('express')
 
 const { checkConfig } = require('./utility/utils')
 checkConfig()
 
-const express = require('express')
+
 const cors = require('cors')
 
 const { pathLogger } = require('./middleware/logger')

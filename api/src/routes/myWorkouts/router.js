@@ -1,12 +1,12 @@
 const { Router } = require('express')
-const { index } = require('./controller')
+const { getMyWorkouts, createNewWorkout } = require('./controller')
 
 // create a new Router instance
 const router = new Router()
 
 // define routes
 
-router.get('/', index)
-router.post('/new', createNewReport)
+router.get('/', getMyWorkouts)
+router.post('/new', createNewWorkout)
 // exporting router
 module.exports = router

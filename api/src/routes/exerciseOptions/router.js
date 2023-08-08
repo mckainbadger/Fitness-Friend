@@ -7,7 +7,7 @@ const router = new Router()
 // define routes
 router.get('/', getAllExercises)
 router.get('/:id', showExerciseById)
-router.post('/new', createNewReport)
+//router.post('/new', createNewReport)
 
 // exporting router
 module.exports = router

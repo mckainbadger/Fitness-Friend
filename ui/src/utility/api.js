@@ -1,21 +1,22 @@
+const baseUrl = "http://localhost:9000";
 
 export const getAllExercises = async () => {
-    const response = await fetch(`${baseUrl}/exercises/`)
-    const responseData = await response.json()
-    return responseData
-  }
+  const response = await fetch(`${baseUrl}/exerciseOptions/`);
+  const responseData = await response.json();
+  return responseData;
+};
 
-  export const createNewWorkout = async (reportData) => {
-    const response = await fetch(`${baseUrl}/workout/new`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(reportData),
-    });
-  
-    const responseData = await response.json();
-    if (!response.ok) {
-      throw new Error(
-        `Status Code: ${response?.status} - ${responseData?.message}`
-      );
-    }
-  };
+export const getMyWorkouts = async () => {
+  const response = await fetch(`${baseUrl}/myWorkouts/`);
+  const responseData = await response.json();
+  return responseData;
+};
+
+
+export const createNewWorkout = async (data) => {
+  const response = await fetch(`${baseUrl}/myWorkouts/new`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  });
+};

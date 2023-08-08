@@ -19,7 +19,7 @@ const Footer = () => {
                 fontSize: '26px',
               }}
             >
-              <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
+              <Link to="/" style={{ color: '#FF2625', opacity:"80%", textDecoration: 'none' }}>
                 Fitness Friend
               </Link>
             </Typography>
